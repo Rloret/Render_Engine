@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shaders\Cubemap.frag" />
+    <None Include="..\Shaders\Cubemap.vert" />
+    <None Include="..\Shaders\Deferred.frag" />
+    <None Include="..\Shaders\Deferred.vert" />
+    <None Include="..\Shaders\Gerstner.frag" />
+    <None Include="..\Shaders\Grid.tcs" />
+    <None Include="..\Shaders\Grid.tes" />
+    <None Include="..\Shaders\Grid.vert" />
+    <None Include="..\Shaders\GridGerstner.geom" />
+    <None Include="..\Shaders\GridGerstnerL.geom" />
+    <None Include="..\Shaders\GridGerstnerP.geom" />
+    <None Include="..\Shaders\GridPerlin.geom" />
+    <None Include="..\Shaders\GridPerlinFromTexture.geom" />
+    <None Include="..\Shaders\GridPerlinFromTextureL.geom" />
+    <None Include="..\Shaders\GridPerlinFromTextureP.geom" />
+    <None Include="..\Shaders\GridPerlinFromTexturePlusgrass.geom" />
+    <None Include="..\Shaders\GridPerlinFromTexturePlusgrassL.geom" />
+    <None Include="..\Shaders\GridPerlinFromTexturePlusgrassP.geom" />
+    <None Include="..\Shaders\Perlin.frag" />
+    <None Include="..\Shaders\PerlinFromTexture.frag" />
+    <None Include="..\Shaders\PerlinFromTexturePlusGrass.frag" />
+    <None Include="..\Shaders\readFBO.frag" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="scr\CPPFiles\AssimpLoader.cpp" />
+    <ClCompile Include="scr\CPPFiles\auxiliar.cpp" />
+    <ClCompile Include="scr\CPPFiles\Camera.cpp" />
+    <ClCompile Include="scr\CPPFiles\Curve.cpp" />
+    <ClCompile Include="scr\CPPFiles\Engine.cpp" />
+    <ClCompile Include="scr\CPPFiles\FBO.cpp" />
+    <ClCompile Include="scr\CPPFiles\Grid.cpp" />
+    <ClCompile Include="scr\CPPFiles\IRenderable.cpp" />
+    <ClCompile Include="scr\CPPFiles\Light.cpp" />
+    <ClCompile Include="scr\CPPFiles\main.cpp" />
+    <ClCompile Include="scr\CPPFiles\Material.cpp" />
+    <ClCompile Include="scr\CPPFiles\MeshData.cpp" />
+    <ClCompile Include="scr\CPPFiles\ModelObject.cpp" />
+    <ClCompile Include="scr\CPPFiles\ParticleSystem.cpp" />
+    <ClCompile Include="scr\CPPFiles\PointsRenderer.cpp" />
+    <ClCompile Include="scr\CPPFiles\QuadTree.cpp" />
+    <ClCompile Include="scr\CPPFiles\Scene.cpp" />
+    <ClCompile Include="scr\CPPFiles\Shader.cpp" />
+    <ClCompile Include="scr\CPPFiles\Texture.cpp" />
+    <ClCompile Include="scr\CPPFiles\Transform.cpp" />
+    <ClCompile Include="scr\CPPFiles\WaveParameters.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scr\HeaderFiles\AssimpLoader.h" />
+    <ClInclude Include="scr\HeaderFiles\auxiliar.h" />
+    <ClInclude Include="scr\HeaderFiles\Camera.h" />
+    <ClInclude Include="scr\HeaderFiles\Curve.h" />
+    <ClInclude Include="scr\HeaderFiles\Engine.h" />
+    <ClInclude Include="scr\HeaderFiles\FBO.h" />
+    <ClInclude Include="scr\HeaderFiles\GlobalVariables.h" />
+    <ClInclude Include="scr\HeaderFiles\Grid.h" />
+    <ClInclude Include="scr\HeaderFiles\IRenderable.h" />
+    <ClInclude Include="scr\HeaderFiles\Light.h" />
+    <ClInclude Include="scr\HeaderFiles\Material.h" />
+    <ClInclude Include="scr\HeaderFiles\MeshData.h" />
+    <ClInclude Include="scr\HeaderFiles\modelobject.h" />
+    <ClInclude Include="scr\HeaderFiles\ParticleSystem.h" />
+    <ClInclude Include="scr\HeaderFiles\PointsRenderer.h" />
+    <ClInclude Include="scr\HeaderFiles\quad.h" />
+    <ClInclude Include="scr\HeaderFiles\QuadTree.h" />
+    <ClInclude Include="scr\HeaderFiles\Scene.h" />
+    <ClInclude Include="scr\HeaderFiles\Shader.h" />
+    <ClInclude Include="scr\HeaderFiles\Texture.h" />
+    <ClInclude Include="scr\HeaderFiles\Transform.h" />
+    <ClInclude Include="scr\HeaderFiles\Uniform.h" />
+    <ClInclude Include="scr\HeaderFiles\WaveParameters.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Render_Engine</ProjectName>
+    <ProjectGuid>{70C0D183-E002-4AE2-828C-DB24BD68B5CC}</ProjectGuid>
+    <RootNamespace>ej1</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>\scr\HeadeFiles;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>\scr\HeadeFiles;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\libs\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>FreeImage.lib;assimp-vc140-mt.lib;opengl32.lib;freeglut.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\libs\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\libs\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>FreeImage.lib;assimp-vc140-mt.lib;freeglut.lib;glew32.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\libs\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

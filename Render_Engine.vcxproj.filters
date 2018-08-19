@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{6816f2f4-09da-446d-bb03-b3d2a2093e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{5733b9ec-8bbc-47f2-ba7e-82b2f9eb2ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HeaderFiles">
+      <UniqueIdentifier>{242dce80-957b-4b0d-9452-84b514a50339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\CppFiles">
+      <UniqueIdentifier>{29b5971b-31fb-4e4e-9249-93e2254608f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="..\Shaders\Cubemap.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Cubemap.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Deferred.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Deferred.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Gerstner.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Grid.tcs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Grid.tes">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Grid.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\GridGerstner.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\GridGerstnerL.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\GridGerstnerP.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\GridPerlin.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\GridPerlinFromTexture.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\GridPerlinFromTextureL.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\GridPerlinFromTextureP.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\GridPerlinFromTexturePlusgrass.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\GridPerlinFromTexturePlusgrassL.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\GridPerlinFromTexturePlusgrassP.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Perlin.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\PerlinFromTexture.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\PerlinFromTexturePlusGrass.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Shaders\readFBO.frag">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="scr\CPPFiles\AssimpLoader.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\auxiliar.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\Camera.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\Engine.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\Light.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\main.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\Material.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\MeshData.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\ModelObject.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\Scene.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\Shader.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\Texture.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\ParticleSystem.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\IRenderable.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\Transform.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\FBO.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\WaveParameters.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\Grid.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\QuadTree.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\Curve.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="scr\CPPFiles\PointsRenderer.cpp">
+      <Filter>src\CppFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scr\HeaderFiles\AssimpLoader.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\auxiliar.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\Camera.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\Engine.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\GlobalVariables.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\Light.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\Material.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\MeshData.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\modelobject.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\Scene.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\Shader.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\Texture.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\Uniform.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\quad.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\ParticleSystem.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\IRenderable.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\Transform.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\FBO.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\WaveParameters.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\Grid.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\QuadTree.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\Curve.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="scr\HeaderFiles\PointsRenderer.h">
+      <Filter>src\HeaderFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
